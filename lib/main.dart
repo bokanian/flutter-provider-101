@@ -43,7 +43,7 @@ class _NewTextInputState extends State<NewTextInput> {
         TextField(
           controller: NewTextInput._ageController,
           decoration: InputDecoration(
-            labelText: 'type...',
+            labelText: 'New Text',
           ),
           onChanged: (value) {
             Provider.of<Data>(context, listen: false).changeText(value);
