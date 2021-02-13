@@ -82,7 +82,7 @@ class Container2 extends StatelessWidget {
 }
 
 class Data extends ChangeNotifier {
-  String user = 'Aliz Bk29';
+  String user = 'Aliz Bokanian';
 
   void changeText(String newText) {
     user = newText;
